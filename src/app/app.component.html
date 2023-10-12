@@ -1,0 +1,47 @@
+<div id="conditional">Conditional</div>
+
+<div id="team">Team</div>
+<div id="agent">Agent</div>
+<div id="greaterThan">> Greater Than</div>
+
+<div id="equals">= Equals</div>
+<div id="lessThan">< Less Than</div>
+<div id="action">Action</div>
+<div id="output">Output</div>
+
+<div id="process">Process</div>
+
+<div id="step1">Step 1</div>
+<div id="step2">Step 2</div>
+<div id="step3">Step 3</div>
+<div id="decision">Decision</div>
+<div id="approval">Approval</div>
+<div id="rejection">Rejection</div>
+
+<div
+  class="container"
+  *ngFor="let node of nodes"
+  [id]="node.id"
+  [style.left.px]="node.x"
+  [style.top.px]="node.y"
+>
+  {{ node.label }}
+  <div
+    class="child"
+    *ngFor="let child of node.children"
+    [id]="child.id"
+    [style.left.px]="child.x"
+    [style.top.px]="child.y"
+  >
+    {{ child.label }}
+    <div
+      class="sub-child"
+      *ngFor="let subChild of child.children"
+      [id]="subChild.id"
+      [style.left.px]="subChild.x"
+      [style.top.px]="subChild.y"
+    >
+      {{ subChild.label }}
+    </div>
+  </div>
+</div>

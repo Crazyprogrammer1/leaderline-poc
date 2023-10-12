@@ -1,0 +1,108 @@
+div {
+  position: absolute;
+  border: 1px solid #278a33;
+  background-color: #f7fafc;
+  border-radius: 4px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#conditional {
+  width: 110px;
+  left: 16px;
+  top: 16px;
+}
+
+#team {
+  width: 74px;
+  right: 1425px;
+  top: 100px;
+}
+
+#agent {
+  width: 74px;
+  right: 1425px;
+  top: 160px;
+}
+#greaterThan {
+  width: 114px;
+  right: 1385px;
+  top: 227px;
+}
+
+/* ... existing styles ... */
+
+#equals {
+  width: 74px;
+  right: 1385px;
+  top: 300px;
+}
+
+#lessThan {
+  width: 84px;
+  right: 1385px;
+  top: 360px;
+}
+
+#action {
+  width: 74px;
+  right: 1385px;
+  top: 420px;
+}
+
+#output {
+  width: 74px;
+  right: 1385px;
+  top: 480px;
+}
+
+/* ... existing styles ... */
+
+#process {
+  width: 110px;
+  left: 16px;
+  top: 540px;
+}
+
+#step1 {
+  width: 74px;
+  right: 1425px;
+  top: 540px;
+}
+
+#step2 {
+  width: 74px;
+  right: 1425px;
+  top: 600px;
+}
+
+#step3 {
+  width: 74px;
+  right: 1605px;
+  top: 660px;
+}
+
+#decision {
+  width: 84px;
+  right: 1195px;
+  top: 720px;
+}
+
+#approval {
+  width: 84px;
+  right: 1385px;
+  top: 780px;
+}
+
+#rejection {
+  width: 84px;
+  right: 1385px;
+  top: 840px;
+}
+
+.child,
+.sub-child {
+  width: 100px;
+}
